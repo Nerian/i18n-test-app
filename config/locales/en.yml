@@ -1,0 +1,8 @@
+en:
+  activerecord:
+    attributes:
+      coupon:
+        coupon_code: Code
+    models:
+      coupon: Cupón
+      coupons: Cupones

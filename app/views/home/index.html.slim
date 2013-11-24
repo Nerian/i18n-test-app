@@ -1,0 +1,7 @@
+div = link_to 'es', url_for(locale: 'es')
+div = link_to 'en', url_for(locale: 'en')
+
+= simple_form_for(:coupon, url: 'whatever') do |f|
+  = f.input :coupon_code, :as => :string
+  .form-actions
+    = f.button :submit
